@@ -1,10 +1,76 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* --- button top --- */
+#buttonTop{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 130px;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  z-index: 1000;
+}
+#buttonTop:hover {
+  cursor: pointer;
+}
+#buttonTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.apresentation p{
+	font-weight: 100px;
+	color: #ccc;
+}
+
+/* --- Page --- */
+#banner .container,
+#portfolio .container,
+#contato .container{
+	height: 100vh;
+	background-image: url(../imagens/img-bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* --- Section Banner --- */
+#banner .navbar-brand{
+	line-height: 0.8;
+}
+#banner .display-1{
+	font-size: 180px;
+}
+
+/* --- Section Portfolio --- */
+#portfolio img{
+	width: 100%;
+	object-fit: cover;
+}
+
+/* --- Section Contato --- */
+#contato h3{
+	font-size: 18px;
+}
 
 
 /* ----- MEDIA QUERY ----- */
 
 /* celulares pequenos */
 @media (max-width: 320px){
-
+	#banner .display-1{
+		font-size: 80px;
+	}
+	#portfolio .display-3{
+		font-size: 50px;
+	}
+	#contato h2{
+		font-size: 30px;
+	}
 }
 
 /* celular modo paisagem e tablets*/
@@ -14,11 +80,11 @@
 
 /* notebook e computadores */
 @media (min-width: 769px) and (max-width: 1920px){
-	
+
 }
 
 /* smart tvs e 4k*/
 @media (min-width: 1921px){
-	
+
 }
 

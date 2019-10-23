@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- fonte Ubuntu -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 
     <!-- icones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
@@ -17,11 +17,149 @@
 
     <title>FOCO</title>
   </head>
-  <body>
-    
-    
-    
+  <body class="bg-dark">
 
+    <div class="apresentation container my-5 py-5">
+      <p class="h1 text-center font-weight-light text-uppercase">Web Developer Design</p>
+    </div>
+
+    <section id="banner">
+      <div class="container shadow">
+        <nav class="navbar absolute navbar-expand-lg navbar-light bg-transparent">
+          <a class="navbar-brand text-muted text-uppercase font-weight-bold" href="#">Fo<br>co</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-4">
+                <a class="nav-link text-uppercase font-weight-bold text-muted" href="#banner">Home</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link text-uppercase font-weight-bold text-muted" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link text-uppercase font-weight-bold text-muted" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- <div class="">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div> -->
+        
+        <div class="d-flex w-100 h-100">
+          <div class="mx-auto my-auto">
+            <h1 class="display-1 mb-0 text-muted text-uppercase font-weight-bold">Foco</h1>
+            <p class="mt-0 text-right text-muted">Lorem ipsum dolor sit....</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="portfolio" class="mt-5">
+      <div class="container shadow">
+        <div class="d-flex w-100 h-100">
+          <div class="mx-auto my-auto">
+            <div class="row mx-4">
+              <div class="col-12 col-md-3 px-0">
+                <div class="d-flex w-100 h-100">
+                  <div class="my-auto">
+                    <img src="imagens/img-01.jpg" class="shadow rounded img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img src="imagens/img-03.jpg" class="shadow rounded img-fluid">
+              </div>
+              <div class="col-12 col-md-3 px-0">
+                <div class="d-flex w-100 h-100">
+                  <div class="my-auto">
+                    <img src="imagens/img-02.jpg" class="shadow rounded img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mx-md-5 px-md-5">
+              <h2 class="text-light display-3 text-center text-uppercase font-weight-bold">Portfolio</h2>
+              <p class="text-center text-muted mx-md-5 px-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam suscipit, harum veniam explicabo nobis, quia. Sequi, id doloribus praesentium provident!</p>
+
+              <div class="text-center">
+                <button type="submit" class="btn bg-transparent text-uppercase text-muted shadow-lg">Saiba mais</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="my-5">
+      <div class="container shadow">
+        <div class="d-flex w-100 h-100">
+          <div class="mx-auto my-auto">
+            <div class="row mx-md-5">
+              <div class="col-12 col-md text-center">
+                <div class="pr-md-5 py-5">
+                  <h2 class="text-light font-weight-bold text-uppercase mb-5">Contato</h2>
+                  <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia error inventore, repellendus voluptatem ratione, officia ipsam iste voluptas, iure nisi cupiditate atque voluptate, culpa esse et expedita! Tenetur animi doloribus illo expedita.</p>
+                  
+                  <h3 class="h5 text-light">Lorem</h3>
+                  <p class="text-muted">Lorem ipsum dolor.</p>
+                  
+                  <h3 class="h5 text-light">Lorem</h3>
+                  <p class="text-muted">Lorem ipsum dolor.</p>
+                  
+                  <h3 class="h5 text-light">Lorem</h3>
+                  <p class="text-muted">Lorem ipsum dolor.</p>
+                </div>
+              </div>
+              <div class="col-12 col-md">
+                <div class="shadow-lg py-5">
+                  <h2 class="text-center text-light font-weight-bold text-uppercase mb-5">Formulário de Contato</h2>
+                  <form action="" class="px-3 px-md-5">
+                    <div class="form-group">
+                      <label for="" class="text-muted mb-0">Nome completo</label>
+                      <input type="text" class="py-0 form-control bg-transparent border-top-0 border-left-0 border-right-0 border-secondary">
+                    </div>
+                    <div class="form-group">
+                      <label for="" class="text-muted mb-0">E-mail</label>
+                      <input type="text" class="py-0 form-control bg-transparent border-top-0 border-left-0 border-right-0 border-secondary">
+                    </div>
+                    <div class="form-group">
+                      <label for="" class="text-muted mb-0">Telefone</label>
+                      <input type="text" class="py-0 form-control bg-transparent border-top-0 border-left-0 border-right-0 border-secondary">
+                    </div>
+                    <div class="form-group">
+                      <label for="" class="text-muted mb-0">Mensagem</label>
+                      <input type="text" class="py-0 form-control bg-transparent border-top-0 border-left-0 border-right-0 border-secondary">
+                    </div>
+                  
+                    <div class="text-center">
+                      <button type="submit" class="btn bg-transparent text-uppercase text-muted shadow-lg">Enviar Mensagem</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="apresentation container my-5 py-5">
+      <p class="h1 text-center font-weight-light text-uppercase">Obrigado por acessar!</p>
+    </div>
+
+    <!-- srcoll top -->
+    <button id="buttonTop" class="btn shadow rounded-circle bg-secondary"><i class="text-light fas fa-arrow-up"></i></button>
+    
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
