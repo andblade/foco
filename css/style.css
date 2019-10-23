@@ -1,0 +1,24 @@
+
+
+/* ----- MEDIA QUERY ----- */
+
+/* celulares pequenos */
+@media (max-width: 320px){
+
+}
+
+/* celular modo paisagem e tablets*/
+@media (min-width: 321px) and (max-width: 768px){
+	
+}
+
+/* notebook e computadores */
+@media (min-width: 769px) and (max-width: 1920px){
+	
+}
+
+/* smart tvs e 4k*/
+@media (min-width: 1921px){
+	
+}
+
